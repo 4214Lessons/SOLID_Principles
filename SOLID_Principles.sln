@@ -7,6 +7,39 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{DFEEEF45-B194-46D5-95B6-7F72E5DAD419}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{B1C6B778-0510-471D-B403-C2B01FEF7C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{C71EBA13-C3A2-45D1-B05B-2F4EC6471BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{2D24727D-EEE7-4A06-ADA0-41670A3C162B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2D4165B0-3811-4F92-973D-35F9D8FEDABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "The meaning of SOLID", "The meaning of SOLID", "{68A17B07-2B0C-4986-AC36-C2E4593DC99C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Images\The meaning of SOLID\Low-High level classes.png = ..\..\..\Desktop\Images\The meaning of SOLID\Low-High level classes.png
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID.jpeg = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID.jpeg
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID_D.png = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID_D.png
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID_I.png = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID_I.png
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID_L.png = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID_L.png
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID_O.png = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID_O.png
+		..\..\..\Desktop\Images\The meaning of SOLID\SOLID_S.png = ..\..\..\Desktop\Images\The meaning of SOLID\SOLID_S.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML - Class diagrams", "UML - Class diagrams", "{9ADD1A45-9E98-4A81-9537-4A4794836224}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Images\UML - Class diagrams\Dependency Inversion_After.png = ..\..\..\Desktop\Images\UML - Class diagrams\Dependency Inversion_After.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Dependency Inversion_Before.png = ..\..\..\Desktop\Images\UML - Class diagrams\Dependency Inversion_Before.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Interface Segregation_After.png = ..\..\..\Desktop\Images\UML - Class diagrams\Interface Segregation_After.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Interface Segregation_Before.png = ..\..\..\Desktop\Images\UML - Class diagrams\Interface Segregation_Before.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Liskov Substitution_After.png = ..\..\..\Desktop\Images\UML - Class diagrams\Liskov Substitution_After.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Liskov Substitution_Before.png = ..\..\..\Desktop\Images\UML - Class diagrams\Liskov Substitution_Before.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Open-Closed_After.png = ..\..\..\Desktop\Images\UML - Class diagrams\Open-Closed_After.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Open-Closed_Before.png = ..\..\..\Desktop\Images\UML - Class diagrams\Open-Closed_Before.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Single Responsibility_After.png = ..\..\..\Desktop\Images\UML - Class diagrams\Single Responsibility_After.png
+		..\..\..\Desktop\Images\UML - Class diagrams\Single Responsibility_Before.png = ..\..\..\Desktop\Images\UML - Class diagrams\Single Responsibility_Before.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +54,25 @@ Global
 		{DFEEEF45-B194-46D5-95B6-7F72E5DAD419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEEEF45-B194-46D5-95B6-7F72E5DAD419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEEEF45-B194-46D5-95B6-7F72E5DAD419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C6B778-0510-471D-B403-C2B01FEF7C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C6B778-0510-471D-B403-C2B01FEF7C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C6B778-0510-471D-B403-C2B01FEF7C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C6B778-0510-471D-B403-C2B01FEF7C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71EBA13-C3A2-45D1-B05B-2F4EC6471BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71EBA13-C3A2-45D1-B05B-2F4EC6471BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71EBA13-C3A2-45D1-B05B-2F4EC6471BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71EBA13-C3A2-45D1-B05B-2F4EC6471BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D24727D-EEE7-4A06-ADA0-41670A3C162B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D24727D-EEE7-4A06-ADA0-41670A3C162B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D24727D-EEE7-4A06-ADA0-41670A3C162B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D24727D-EEE7-4A06-ADA0-41670A3C162B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68A17B07-2B0C-4986-AC36-C2E4593DC99C} = {2D4165B0-3811-4F92-973D-35F9D8FEDABB}
+		{9ADD1A45-9E98-4A81-9537-4A4794836224} = {2D4165B0-3811-4F92-973D-35F9D8FEDABB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82ADB268-3D4E-458B-A7B6-6F2811E77929}
